@@ -1,0 +1,98 @@
+body {
+    font-family: 'Noto Sans Hatran', sans-serief;
+}
+
+.hero-section {
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.hero-image {
+    width: 100%;
+}
+
+#profile-image {
+    height: 150px;
+    border-radius: 75px;
+    margin-left: 20px;
+    margin-top: -75px;
+    border: 5px solid grey;
+}
+
+.photo-profile-details {
+    display: flex;
+    gap: 25px;
+}
+
+.name-section .name {
+    font-size: 23px;
+}
+
+.name-section .about-title {
+    font-size: 15px;
+}
+
+.mid-section {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.tabs-link-list {
+    list-style-type: none;
+    padding: 5px;
+    width: 90%;
+
+}
+
+.tabs-link-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.tabs-link-list li {
+    border: 2px solid lightgray;
+    width: 100%;
+}
+
+.tabs-link-list .selected {
+    background-color: violet;
+}
+
+.tabs-link-list .selected a {
+    color: red;
+}
+
+.main-section , .name-section{
+    width: 500px;
+}
+
+.main-section dt {
+    font-weight: bold;
+}
+
+.about-me-row {
+    display: flex;
+}
+
+.line {
+    border-bottom: 2px solid black;
+}
+.movie-list {
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.movie-poster {
+    width: 150px;
+    height: 150px;
+
+}
+.movies-section ul{
+    text-align: center;
+    display: flex;
+gap: 90px;
+
+}
